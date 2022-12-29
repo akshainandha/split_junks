@@ -29,8 +29,6 @@ class Split_Files:
  '''
  data = pd.read_csv(self.file_name, header=None)
  data.index += 1
-50-useful-python-scripts-free-pdf-download.md 12/05/2022
-16 / 65
  split_frame = pd.DataFrame()
  output_file = f"{self.directory}/split_file{self.file_number}
 {self.file_extension}"
